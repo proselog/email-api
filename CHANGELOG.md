@@ -1,6 +1,6 @@
 ## Unreleased
 
-No unreleased changes.
+- Set `token` header
 
 ## 0.1.0
 

@@ -1,9 +1,13 @@
 import { type InputType } from "../worker/schema"
 
-export const sendEmail = async (input: InputType) => {
+export const sendEmail = async (
+  input: InputType,
+  options: { token: string }
+) => {
   const res = await fetch(`https://email-api.egoist.workers.dev/`, {
     headers: {
       "content-type": "application/json",
+      authorization: `Bearer ${options.token}`,
     },
     body: JSON.stringify(input),
   })
