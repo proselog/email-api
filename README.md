@@ -1,6 +1,6 @@
 Email API for Proselog.
 
-Not intended for use outside of Proselog.
+Not intended for use outside of Proselog, but it should work with any worker, without any configuration.
 
 ```ts
 import { sendEmail } from "@proselog/email-api"
