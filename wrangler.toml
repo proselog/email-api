@@ -1,5 +1,5 @@
 name = "email-api"
-main = "src/index.ts"
+main = "worker/index.ts"
 compatibility_date = "2022-05-14"
 
 # [secrets]
