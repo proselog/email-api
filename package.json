@@ -24,6 +24,7 @@
     "zod": "^3.16.0"
   },
   "scripts": {
+    "test": "echo cant-be-tested-locally-yet",
     "dev": "wrangler dev",
     "deploy": "wrangler publish",
     "build": "tsup src/index.ts --format esm,cjs --dts-resolve",
