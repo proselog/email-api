@@ -1,5 +1,9 @@
 ## Unreleased
 
+No unreleased changes.
+
+## 0.1.3
+
 - Fix types and request method
 
 ## 0.1.2
