@@ -1,5 +1,7 @@
 import { type InputType } from "../worker/schema"
 
+export type Message = InputType
+
 export const sendEmail = async (
   input: InputType,
   options: { token: string }

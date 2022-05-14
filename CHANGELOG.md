@@ -1,6 +1,6 @@
 ## Unreleased
 
-No unreleased changes.
+- Export `Message` type
 
 ## 0.1.1
 
